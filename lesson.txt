@@ -5,3 +5,7 @@ Its specialization is that, it standardises the language and protocols between f
 Gunicorn is one of WSGI.
 Now, we need to tell the hosting provider about our gunicorn, what our app is called and how to run our flask app.
 We tell the hosting provider through config file called "procfile".
+In Procfile, we will add a line of code "web: gunicorn main:app"
+It will create a web worker to receive HTTP requests.
+This line of code explains that we are using gunicorn to serve our app.
+What our app is called and how to run our app.
