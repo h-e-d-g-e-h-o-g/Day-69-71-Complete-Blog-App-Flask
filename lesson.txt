@@ -1,0 +1,7 @@
+WSGI:- Web server gateway interface
+WSGI is a web server that is created to run python applications.
+A normal web server is unable to run python applications.
+Its specialization is that, it standardises the language and protocols between flask application and host server.
+Gunicorn is one of WSGI.
+Now, we need to tell the hosting provider about our gunicorn, what our app is called and how to run our flask app.
+We tell the hosting provider through config file called "procfile".
